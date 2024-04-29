@@ -1,0 +1,68 @@
+
+
+.heroSection{
+    height: 100vh;
+    background-image: url('../images/background5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--mainColor);
+}
+
+.heroContainer{
+    height: 100vh;
+    background-image: linear-gradient(to top, var(--darkColor)5% , transparent 95%);
+}
+
+/*HERO CAMERA START*/
+.heroCamera{
+    height: 20px;
+    width: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(to bottom, #333, #111);
+    display: flex;
+    align-items: center;
+}
+
+.heroCameraContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.heroLine{
+    width: 33%;
+    height: 2px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 33%;
+    margin-right: 10%;
+}
+
+.heroCircle{
+    width: 3px;
+    height: 3px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+/*HERO CAMERA END*/
+
+/*HEADER START*/
+
+header{
+    display: flex;
+    padding: 10px 10%;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px 10px;
+    list-style-type: none;
+}
+
+/*HEADER END*/
+
+

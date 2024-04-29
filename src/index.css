@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  min-height: 100vh;
+}
+
+:root{
+  --primaryColor: #FECF7C;
+  --secondaryColor: #6F4F5B;
+  --darkColor: #333;
+}
