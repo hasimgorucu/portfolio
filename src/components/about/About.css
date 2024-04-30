@@ -1,0 +1,38 @@
+.about{
+    height: 100vh;
+    background-color: var(--darkColor);
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutContainer{
+    display: flex;
+    flex: 10;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px;
+}
+
+.aboutPictureContainer{
+    flex: 1;
+}
+
+.aboutTextContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+.aboutText{
+    color: white;
+    text-align: end;
+}
+
+.aboutArrow{
+    text-align: center;
+    flex: 1;
+}
+
+

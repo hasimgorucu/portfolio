@@ -1,0 +1,45 @@
+.skills{
+    background-color: var(--darkColor);
+    height: 100vh;
+}
+
+.skillsContainer{
+    background-color: var(--secondaryColor);
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsAllContainer{
+    display: flex;
+    flex: 10;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px;
+}
+
+.skillsTextContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.skillsIconContainer{
+    flex: 1;
+}
+
+
+
+.aboutText{
+    color: white;
+    text-align: end;
+}
+
+.aboutArrow{
+    text-align: center;
+    flex: 1;
+}

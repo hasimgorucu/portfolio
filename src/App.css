@@ -1,4 +1,11 @@
 .App{
   border: 12px solid #333;
+  border-radius: 20px;
   min-height: 100vh;
+}
+
+.sectionTexts{
+  font-size: var(--heroHeadingFont);
+  color: var(--primaryColor);
+  font-weight: 800;
 }

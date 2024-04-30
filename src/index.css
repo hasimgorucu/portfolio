@@ -1,14 +1,21 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
+  
 }
 
 html,body{
   min-height: 100vh;
+  padding: 5px;
+  background-image: linear-gradient(to right, #FEDE7B, #FEC47B);
+  scroll-behavior: smooth;
 }
 
 :root{
   --primaryColor: #FECF7C;
-  --secondaryColor: #6F4F5B;
-  --darkColor: #333;
+  --secondaryColor: #555;
+  --darkColor: #111;
+  --heroHeadingFont: 50px;
+  --heroTitleFont: 24px;
 }

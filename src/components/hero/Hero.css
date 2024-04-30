@@ -1,0 +1,118 @@
+
+.heroSection{
+    height: 100vh;
+    background-image: url('../../images/background5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--mainColor);
+    border-radius: 8px;
+}
+
+.heroContainer{
+    height: 100vh;
+    background-image: linear-gradient(to top, var(--darkColor), transparent,  transparent);
+}
+
+/*HERO CAMERA START*/
+.heroCamera{
+    height: 20px;
+    width: 10%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(to bottom, #333, #111);
+    display: flex;
+    align-items: center;
+}
+
+.heroCameraContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.heroLine{
+    width: 33%;
+    height: 2px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 33%;
+    margin-right: 10%;
+}
+
+.heroCircle{
+    width: 3px;
+    height: 3px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+/*HERO CAMERA END*/
+
+/*INTRODUCTION START*/
+.heroItemsContainer{
+    display: flex;
+}
+
+.heroIntr{
+    color: white;
+    font-size: var(--heroHeadingFont)
+}
+
+.heroIntrName{
+    font-size: var(--heroHeadingFont);
+    color: var(--darkColor);
+    display: inline;
+}
+
+.heroItemsContainer{
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroTexts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex: 8;
+}
+
+.heroFullStack{
+    color: white;
+    font-size: var(--heroTitleFont);
+}
+
+
+.heroDownContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+    flex: 2;
+    animation-name: heroDown;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+    padding-bottom: 3%;
+}
+
+
+
+@keyframes heroDown{
+    from {gap:5px}
+    to {gap:2px}
+}
+
+.heroDownText{
+    color: white;
+    font-size: 14px;
+}
+
+
+/*INTRODUCTION END*/
+
+
