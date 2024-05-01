@@ -1,6 +1,7 @@
 
 import './App.css'
 import About from './components/about/About'
+import Experience from './components/experience/Experience'
 import Hero from './components/hero/Hero'
 import Skills from './components/skills/Skills'
 
@@ -11,6 +12,7 @@ function App() {
      <Hero/>
      <About/>
      <Skills/>
+     <Experience/>
     </div>
   )
 }
