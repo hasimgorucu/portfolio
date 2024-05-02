@@ -7,8 +7,7 @@
     gap: 20px;
 }
 
-.skillsIcons div{
-    height: 80px;
-    width: 80px;
+.skills-icon{
+    color: white;
 }
 

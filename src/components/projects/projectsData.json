@@ -1,0 +1,18 @@
+[
+    {
+        "projectName":"Nomris",
+        "projectDetail":"Nomris Digital Agency is based in Izmir, Turkey. I used HTML, CSS, React, Redux, Node JS languages and libraries in this project",
+        "projectPicture":"https://cdn.akakce.com/z/apple/iphone-12-pro-128-gb.jpg"
+    },
+
+    {
+        "projectName":"Simirina",
+        "projectDetail":"Simirina technologies is based in Izmir, Turkey. I used HTML, CSS, React languages and libraries in this project",
+        "projectPicture":"https://cdn.akakce.com/z/apple/iphone-12-128-gb.jpg"
+    },
+    {
+        "projectName":"Online Shopping",
+        "projectDetail":"I used HTML, CSS, React, Redux, Node JS languages and libraries in this project",
+        "projectPicture":"https://cdn.akakce.com/z/samsung/samsung-galaxy-s23-256-gb.jpg"
+    }    
+]

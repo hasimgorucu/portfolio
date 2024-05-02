@@ -17,6 +17,7 @@ function Skills() {
               <p className="skillText"> - REACT & REDUX</p><br />
               <h3 className="skillsTitle">Back End</h3><br />
               <p className="skillText"> - NODE JS</p>
+              <p className="skillText"> - JAVA</p>
               <p className="skillText"> - FIREBASE</p>
             </div>
           </div>

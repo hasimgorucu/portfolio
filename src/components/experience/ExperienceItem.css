@@ -1,0 +1,55 @@
+.experienceItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    border: 1px solid var(--primaryColor);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.year{
+    background-color: var(--secondaryColor);
+    padding: 5px 10px;
+    text-align: center;
+    flex: 1;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.experiencelineContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.experienceCircle{
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primaryColor);
+    border-radius: 50%;
+}
+
+.experienceLine{
+    width: 2px;
+    height: 50px;
+    background-color: var(--primaryColor);
+}
+
+.experienceItemTexts{
+    color: white;
+    display: flex;
+    flex: 14;
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
