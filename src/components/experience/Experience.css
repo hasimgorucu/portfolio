@@ -13,20 +13,24 @@
 
 .experienceContainer{
     width: 100%;
-    flex: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    padding: 5% 0px;
-    gap: 10%;
+    height: 100%;
+    padding: 5% 0;
+}
+
+#experienceSectionText{
+    flex: 1;
 }
 
 .experienceTextsWrapper{
-    display: flex;
+    display: flex;   
+    flex: 12;
     width: 40%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
+

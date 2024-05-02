@@ -1,0 +1,30 @@
+.contact{
+    height: 50vh;
+    background-color: var(--darkColor);
+}
+
+.contactWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10%;
+}
+
+
+
+#arrowUp{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#arrowUp span{
+    color: white;
+}
