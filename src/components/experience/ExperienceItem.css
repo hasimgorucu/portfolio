@@ -9,6 +9,12 @@
     border-radius: 10px;
 }
 
+@media screen and (max-width: 800px){
+    .experienceItem{
+        flex-direction: column;
+    }
+}
+
 .year{
     background-color: var(--secondaryColor);
     padding: 5px 10px;
@@ -24,6 +30,12 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
+}
+
+@media screen and (max-width: 800px){
+    .experiencelineContainer{
+        display: none;
+    }
 }
 
 .experienceCircle{

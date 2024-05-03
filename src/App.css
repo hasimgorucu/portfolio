@@ -1,16 +1,33 @@
-.App{
+.App {
   border: 12px solid #333;
   border-radius: 20px;
   min-height: 100vh;
 }
 
-.sectionTexts{
+@media screen and (max-width: 800px) {
+  .App {
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.sectionTexts {
   font-size: var(--heroHeadingFont);
   color: var(--primaryColor);
   font-weight: 800;
 }
 
-.arrow{
+.arrow {
   text-align: center;
   flex: 1;
+}
+
+.icons {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .arrow {
+    display: none;
+  }
 }

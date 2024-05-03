@@ -6,6 +6,12 @@
     justify-content: center;
     gap: 5%;
 }
+@media screen and (max-width: 800px){
+    .projectBody{
+        flex: 8;
+    }
+}
+
 
 .projectIndex{
     position: absolute;
@@ -17,10 +23,23 @@
     color: #333;
 }
 
+@media screen and (max-width: 800px){
+    .projectIndex{
+        display: none;
+    }
+}
+
 .imgWrapper{
     height: 200px;
     flex: 1;
 }
+
+@media screen and (max-width: 800px){
+    .imgWrapper{
+        display: none;
+    }
+}
+
 
 .imgWrapper img{
     width: 100%;
@@ -32,11 +51,18 @@
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     align-items: start;
     justify-content: center;
     flex: 1;
     z-index: 1;
+}
+
+@media screen and (max-width: 800px){
+    .projectTexts{
+        align-items: center;
+
+    }
 }
 
 .projectTexts p{

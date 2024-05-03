@@ -1,47 +1,65 @@
-.projects{
-    background-color: var(--darkColor);
-    height: 100vh;
+.projects {
+  background-color: var(--darkColor);
+  height: 100vh;
 }
 
-.allProjectsContainer{
-    background-color: var(--secondaryColor);
+@media screen and (max-width: 800px) {
+  .projects {
     height: 100%;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  }
 }
 
-.projectsContainer{
-    width: 100%;
-    flex: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    padding: 5% 0px;
-    gap: 20%;
+.allProjectsContainer {
+  background-color: var(--secondaryColor);
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.projectWrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
+.projectsContainer {
+  width: 100%;
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 5% 0px;
+  gap: 20%;
 }
 
-.projectWrapper a{
-    flex: 1;
-    text-align: center;
-
+@media screen and (max-width: 800px) {
+  .projectsContainer {
+    gap: 30px;
+    padding: 10% 0px;
+  }
 }
 
-.projectWrapper a:hover{
-    cursor: pointer;
+.projectWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
 }
 
-.projectArrow{
-    color: white;
+.projectWrapper a {
+  flex: 1;
+  text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  .projectWrapper {
+    gap: 30px;
+    padding: 10% 0px;
+  }
+}
+
+.projectWrapper a:hover {
+  cursor: pointer;
+}
+
+.projectArrow {
+  color: white;
+}

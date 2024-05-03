@@ -19,3 +19,16 @@ html,body{
   --heroHeadingFont: 50px;
   --heroTitleFont: 24px;
 }
+
+@media screen and (max-width: 800px){
+  :root{
+    --heroHeadingFont: 30px;
+  --heroTitleFont: 16px;
+  }
+
+  html,body{
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+}

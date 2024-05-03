@@ -7,7 +7,10 @@
     gap: 20px;
 }
 
-.skills-icon{
-    color: white;
-}
+@media screen and (max-width: 800px){
+    .skillsIcons{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    }
 

@@ -5,6 +5,15 @@
     flex-direction: column;
 }
 
+
+@media screen and (max-width: 800px){
+   .about{
+    height: 100%;
+    padding-top: 30px;
+   }
+    
+}
+
 .aboutContainer{
     display: flex;
     flex: 10;
@@ -15,6 +24,12 @@
 
 .aboutPictureContainer{
     flex: 1;
+}
+
+@media screen and (max-width: 800px){
+    .aboutPictureContainer{
+        display: none;
+    }
 }
 
 .aboutTextContainer{
@@ -28,6 +43,18 @@
 .aboutText{
     color: white;
     text-align: end;
+}
+
+@media screen and (max-width: 800px){
+    .aboutText{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+    }
+
+    .aboutTextContainer{
+        align-items: center;
+    }
 }
 
 

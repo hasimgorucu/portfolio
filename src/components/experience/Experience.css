@@ -3,6 +3,12 @@
     background-color: var(--darkColor);
 }
 
+@media screen and (max-width: 800px){
+    .experience{
+        height: 100%;
+    }
+    }
+
 .allExperienceContainer{
     height: 100%;
     display: flex;
@@ -10,6 +16,13 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 800px){
+.allExperienceContainer{
+    padding-top: 30px;
+}
+}
+
 
 .experienceContainer{
     width: 100%;
@@ -19,6 +32,11 @@
     height: 100%;
     padding: 5% 0;
 }
+@media screen and (max-width: 800px){
+    .experienceContainer{
+        gap: 20px;
+    }
+    }
 
 #experienceSectionText{
     flex: 1;

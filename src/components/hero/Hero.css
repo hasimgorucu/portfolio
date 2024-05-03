@@ -24,11 +24,20 @@
     align-items: center;
 }
 
+
+
 .heroCameraContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+@media screen and (max-width: 800px){
+    .heroCameraContainer{
+        display: none;
+    }
+    
 }
 
 .heroLine{
@@ -52,17 +61,29 @@
 /*INTRODUCTION START*/
 .heroItemsContainer{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 .heroIntr{
     color: white;
-    font-size: var(--heroHeadingFont)
+    font-size: var(--heroHeadingFont);
+    text-align: center
 }
 
 .heroIntrName{
     font-size: var(--heroHeadingFont);
     color: var(--darkColor);
     display: inline;
+}
+
+@media screen and (max-width: 800px){
+    .heroIntrName{
+        display: block;
+    }
+    
 }
 
 .heroItemsContainer{
@@ -84,6 +105,7 @@
 .heroFullStack{
     color: white;
     font-size: var(--heroTitleFont);
+    text-align: center;
 }
 
 
@@ -99,6 +121,12 @@
     animation-iteration-count: infinite;
     padding-bottom: 3%;
 }
+
+@media screen and (max-width: 800px) {
+    .heroDownContainer {
+      display: none;
+    }
+  }
 
 
 

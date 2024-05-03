@@ -5,15 +5,15 @@ function SkillsIcons() {
   return (
     <div className="skillsIcons">
       {/*HTML*/}
-      <FontAwesomeIcon icon={faHtml5} size='5x' className='skills-icon'/>
+      <FontAwesomeIcon icon={faHtml5} size='5x' className='icons'/>
       {/*CSS*/}
-      <FontAwesomeIcon icon={faCss3Alt} size='5x' className='skills-icon'/>
+      <FontAwesomeIcon icon={faCss3Alt} size='5x' className='icons'/>
       {/*SASS*/}
-      <FontAwesomeIcon icon={faSass} size='5x' className='skills-icon'/>
+      <FontAwesomeIcon icon={faSass} size='5x' className='icons'/>
       {/*JAVASCRIPT*/}
-      <FontAwesomeIcon icon={faJs} size='5x' className='skills-icon'/>
+      <FontAwesomeIcon icon={faJs} size='5x' className='icons'/>
       {/*REACT*/}
-      <FontAwesomeIcon icon={faReact} size='5x' className='skills-icon'/>
+      <FontAwesomeIcon icon={faReact} size='5x' className='icons'/>
       {/*REDUX */}
       <div>
       <svg
@@ -38,9 +38,9 @@ function SkillsIcons() {
       </svg>
       </div>
       {/*NODE JS*/}
-      <FontAwesomeIcon icon={faNode} size='5x' className='skills-icon'/>
+      <FontAwesomeIcon icon={faNode} size='5x' className='icons'/>
       {/*JAVA */}
-      <FontAwesomeIcon icon={faJava} size='5x' className='skills-icon'/>
+      <FontAwesomeIcon icon={faJava} size='5x' className='icons'/>
     </div>
   );
 }
